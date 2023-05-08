@@ -11,7 +11,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #a41623;
+  --main-color: #e70e02;
   --second-color: #1e3932;
   --thrid-color: #fff;
   --fourth-color: black;
@@ -32,7 +32,7 @@ header {
   right: 0;
   display: flex;
   align-items: center;
-  background: #a41623;
+  background: #e70e02;
   padding: 15px 10%;
   transition: 0.2;
 }
@@ -52,7 +52,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: #a41623;
+  background: #e70e02;
   gap: 1rem;
 }
 .home-text {
@@ -93,7 +93,7 @@ a {
   color: var(--thrid-color);
   margin: 0.5rem 0 1.4rem;
 }
-.btn{
+.btn {
   padding: 7px 16px;
   border: 2px solid var(--fourth-color);
   border-radius: 40px;
@@ -158,6 +158,27 @@ a {
   background: #fff;
   color: black;
 }
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  gap: 1.5rem;
+  align-items: center;
+}
+.cta-text {
+  flex: 1 1 17rem;
+  text-align: center;
+}
+.btn-cta {
+  font-size: 30px;
+  padding: 10px 17px;
+  color: #fff;
+  background: black;
+  border: 2px solid var(--fourth-color);
+  border-radius: 40px;
+  font-weight: 500;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -222,7 +243,7 @@ a {
 .iklan {
   display: flex;
   flex-wrap: wrap;
-  background: #a41623;
+  background: #e70e02;
   gap: 1.5rem;
   align-items: center;
 }
@@ -243,7 +264,7 @@ a {
   margin: 0.5rem 0 1rem;
   font-weight: 500;
 }
-.btn-iklan{
+.btn-iklan {
   padding: 7px 16px;
   color: #fff;
   background: black;
