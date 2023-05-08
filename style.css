@@ -11,7 +11,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #008148;
+  --main-color: #a41623;
   --second-color: #1e3932;
   --thrid-color: #fff;
   --fourth-color: black;
@@ -32,7 +32,7 @@ header {
   right: 0;
   display: flex;
   align-items: center;
-  background: #008148;
+  background: #a41623;
   padding: 15px 10%;
   transition: 0.2;
 }
@@ -41,7 +41,7 @@ header {
   align-items: center;
 }
 .logo img {
-  width: 70px;
+  width: 100px;
 }
 a {
   color: black;
@@ -52,7 +52,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background: #008148;
+  background: #a41623;
   gap: 1rem;
 }
 .home-text {
@@ -222,7 +222,7 @@ a {
 .iklan {
   display: flex;
   flex-wrap: wrap;
-  background: #008148;
+  background: #a41623;
   gap: 1.5rem;
   align-items: center;
 }
