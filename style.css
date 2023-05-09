@@ -76,7 +76,7 @@ a {
   }
 }
 .home-text span {
-  font-size: 1rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--thrid-color);
@@ -137,7 +137,7 @@ a {
 }
 .promo-container .box h2 {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .promo-container .box p {
   color: #fff;
@@ -178,7 +178,10 @@ a {
   border-radius: 40px;
   font-weight: 500;
 }
-
+.btn-cta:hover {
+  color: #fff;
+  background-color: var(--main-color);
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -234,6 +237,7 @@ a {
   margin-top: 1rem;
 }
 .keunggulan-icon {
+  padding-left: 10px;
   margin: 0rem 0 0.1rem;
   font-size: 5rem;
 }
